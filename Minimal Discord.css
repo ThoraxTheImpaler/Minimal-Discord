@@ -11,7 +11,7 @@
     margin-right:5px!important;
     margin-top:5px!important;
 }
-/* Allows minimization of guilds (1st left column) */
+/* Allow minimization and add hover effects to guilds (1st left column) */
 .guilds-wrapper{
     width: 30px!important;
     border-right: solid #FFFFFF;
@@ -29,7 +29,7 @@
     display:inline;
 }
 
-/* Allows minimization of text/voice channels and options (2nd left column) */
+/* Allow minimization and add hover effects to text/voice channels and options (2nd left column) */
 .channels-wrap{
     width: 30px!important;
     border-right: solid #FF0000;
