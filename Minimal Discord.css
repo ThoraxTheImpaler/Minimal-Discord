@@ -1,3 +1,20 @@
+/* Replace Font */
+@font-face {
+    font-family: "Roboto";
+    src: url(https://u.pomf.is/eoryjk.ttf);
+}
+.username,
+.app,
+.settings-header,
+.tab-bar-header,
+.settings-wrapper,
+.message-group,
+.instant-invites,
+.settings-roles,
+.guild-settings-modal-members{
+	font-family: 'Roboto'!important;
+}
+
 /* reduce padding between messages */
 .message-group{
     padding:3px!important;
