@@ -8,6 +8,10 @@
 .app *{
 	font-family: 'Roboto'!important;
 }
+.hljs,
+.inline{
+	font-family: 'Consolas'!important;
+}
 
 /* reduce padding between messages */
 .message-group{
