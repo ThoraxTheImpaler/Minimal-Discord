@@ -1,6 +1,6 @@
 # Minimal-Discord 0.6
 
-![Screenshot](http://i.imgur.com/8WwIGKN.png)
+![Screenshot](http://i.imgur.com/58Isc8f.png)
 
 ####Features
 * Reduces spacing of most elements
