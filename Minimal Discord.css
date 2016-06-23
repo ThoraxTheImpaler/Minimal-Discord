@@ -3,15 +3,7 @@
     font-family: "Roboto";
     src: url(https://u.pomf.is/eoryjk.ttf);
 }
-.username,
-.app,
-.settings-header,
-.tab-bar-header,
-.settings-wrapper,
-.message-group,
-.instant-invites,
-.settings-roles,
-.guild-settings-modal-members{
+.app *{
 	font-family: 'Roboto'!important;
 }
 
@@ -95,4 +87,11 @@
 }
 .channel-members-wrap{
 	min-width:160px!important;
+}
+.channel-members{
+	padding: 0!important;
+}
+.channel-members > h2{
+	padding: 10px 0 10px 20px!important;
+    margin-top: 10px!important;
 }
