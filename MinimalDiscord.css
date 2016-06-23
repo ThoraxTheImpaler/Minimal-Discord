@@ -1,0 +1,88 @@
+/* Replace Font */
+@font-face {
+    font-family: "Roboto";
+    src: url(https://u.pomf.is/eoryjk.ttf);
+}
+.app *{
+	font-family: 'Roboto'!important;
+}
+
+/* reduce padding between messages */
+.message-group{
+    padding:3px!important;
+}
+
+/* reduce size of avatars in chat (Appearance must be set to "Cozy") */
+.avatar-large{
+    width:20px!important;
+    height:20px!important;
+    background-size: 20px 20px!important;
+    margin-right:5px!important;
+    margin-top:5px!important;
+}
+/* Allow minimization and add hover effects to guilds (1st left column) */
+.guilds-wrapper{
+    width: 30px!important;
+    border-right: solid #FFFFFF;
+    transition: .3s;
+}
+.guilds-wrapper:hover{
+    width: 80px!important;
+    border-right: none;
+    transition: .3s;
+}
+.guilds-wrapper > div.guilds{
+    display:none;
+}
+.guilds-wrapper:hover > div.guilds{
+    display:inline;
+}
+
+/* Allow minimization and add hover effects to text/voice channels and options (2nd left column) */
+.channels-wrap{
+    width: 30px!important;
+    border-right: solid #FF0000;
+    transition: .3s;
+}
+.channels-wrap:hover{
+    width: 240px!important;
+    border-right: none;
+    transition: .3s;
+}
+.channels-wrap > div.flex-vertical,
+.channels-wrap > div.account,
+.channels-wrap > ul.links,
+.channels-wrap > div#voice-connection,
+.channels-wrap > div.private-channels{
+    display:none;
+}
+.channels-wrap:hover > div.flex-vertical,
+.channels-wrap:hover > div.account,
+.channels-wrap:hover > ul.links,
+.channels-wrap:hover > div#voice-connection,
+.channels-wrap:hover > div.private-channels{
+	display: inherit;
+}
+
+
+/* Reduce size of users in current channel (Right column) */
+.member{
+	padding:5px 10px!important;
+}
+.channel-members-wrap{
+	min-width:160px!important;
+}
+.channel-members{
+	padding: 0!important;
+}
+.channel-members > h2{
+	padding: 10px 0 10px 20px!important;
+    margin-top: 10px!important;
+}
+
+/* Reduce padding for text entry area */
+.channel-textarea{
+	margin-top: 5px;
+}
+form{
+    margin: 0 5px 0 5px!important;
