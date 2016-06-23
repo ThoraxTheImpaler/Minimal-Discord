@@ -64,6 +64,13 @@
 .channels-wrap:hover > div#voice-connection{
 	display:inherit;
 }
+.channels-wrap > div.private-channels{
+    display:none;
+}
+.channels-wrap:hover > div.private-channels{
+	display: inherit;
+}
+
 
 /* Reduce size of users in current channel (Right column) */
 .member{
