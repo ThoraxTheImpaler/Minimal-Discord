@@ -1,4 +1,4 @@
-# Minimal-Discord V 0.5
+# Minimal-Discord 0.5
 
 ####Features
 * Reduces spacing of most elements
