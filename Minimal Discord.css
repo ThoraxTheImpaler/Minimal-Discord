@@ -58,6 +58,12 @@
 .channels-wrap:hover > ul.links{
     display:inherit;
 }
+.channels-wrap > div#voice-connection{
+	display:none;
+}
+.channels-wrap:hover > div#voice-connection{
+	display:inherit;
+}
 
 /* Reduce size of users in current channel (Right column) */
 .member{
