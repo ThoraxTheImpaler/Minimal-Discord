@@ -16,15 +16,16 @@
 /* reduce padding between messages */
 .message-group{
     padding:3px!important;
+    margin-left:5px!important;
 }
 
 /* reduce size of avatars in chat (Appearance must be set to "Cozy") */
 .avatar-large{
-    width:20px!important;
-    height:20px!important;
-    background-size: 20px 20px!important;
+    width:30px!important;
+    height:30px!important;
+    background-size: 30px 30px!important;
     margin-right:5px!important;
-    margin-top:5px!important;
+    margin-top:4px!important;
 }
 /* Allow minimization and add hover effects to guilds (1st left column) */
 .guilds-wrapper{
