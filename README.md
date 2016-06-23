@@ -1,5 +1,7 @@
 # Minimal-Discord 0.5
 
+![Screenshot](http://i.imgur.com/8WwIGKN.png)
+
 ####Features
 * Reduces spacing of most elements
 * Adds maximize on hover function to Guilds/Channels columns
