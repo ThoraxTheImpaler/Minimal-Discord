@@ -1,4 +1,4 @@
-# Minimal-Discord 0.5
+# Minimal-Discord 0.6
 
 ![Screenshot](http://i.imgur.com/8WwIGKN.png)
 
