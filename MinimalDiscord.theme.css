@@ -1,4 +1,4 @@
-//META{"name":"MinimalDiscord","description":"Reduces the size of various elements and adds a hover effect to the left columns","author":"s0faking","version":"V 0.5"}*//
+//META{"name":"MinimalDiscord","description":"Reduces the size of various elements and adds a hover effect to the left columns","author":"s0faking","version":"V 0.6"}*//
 
 /* Replace Font */
 @font-face {
@@ -17,6 +17,10 @@
 .message-group{
     padding:3px!important;
     margin-left:5px!important;
+	margin-right:0px!important;
+}
+.comment{
+	margin-right:0px!important;
 }
 
 /* reduce size of avatars in chat (Appearance must be set to "Cozy") */
