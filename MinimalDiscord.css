@@ -40,10 +40,12 @@
     border-right: none;
     transition: .3s;
 }
-.guilds-wrapper > div.guilds{
+.guilds-wrapper > div.guilds,
+.scroller-wrap > div.guilds{
     display:none;
 }
-.guilds-wrapper:hover > div.guilds{
+.guilds-wrapper:hover > div.guilds,
+.scroller-wrap:hover > div.guilds{
     display:inline;
 }
 
@@ -72,7 +74,6 @@
 .channels-wrap:hover > div.private-channels{
 	display: inherit;
 }
-
 
 /* Reduce size of users in current channel (Right column) */
 .member{
