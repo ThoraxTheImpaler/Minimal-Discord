@@ -13,6 +13,13 @@
 	font-family: 'Consolas'!important;
 }
 
+/* increase divider padding */
+.divider {
+	margin-left: 10px!important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* reduce padding between messages */
 .message-group{
     padding:3px!important;
@@ -76,7 +83,6 @@
 .channels-wrap:hover > div.private-channels{
 	display: inherit;
 }
-
 
 /* Reduce size of users in current channel (Right column) */
 .member{
